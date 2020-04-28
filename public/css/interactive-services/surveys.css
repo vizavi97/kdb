@@ -1,0 +1,114 @@
+.breadcrumb-custom {
+	background-image: url('../../img/interactive-services/surveys/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.breadcrumb-custom {
+	color: white
+}
+
+.breadcrumb-custom a {
+	color: #F5F5F5
+}
+
+.surveys {
+	margin-top: 48px
+}
+
+.surveys .box {
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .16);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .16);
+	padding: 24px;
+	margin: 0 0 24px
+}
+
+.surveys .box:last-child {
+	margin: 0
+}
+
+.surveys .box h3 {
+	margin: 0;
+}
+
+.surveys .answer {
+	position: relative;
+	height: 28px;
+	margin-top: 24px;
+	background-color: #F5F5F5;
+}
+
+.surveys .answer .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;	
+	height: 100%;
+	background-color: #FFC409;
+}
+
+.surveys .answer .text, .surveys .answer .percentage {
+	position: absolute;
+	top: 50%;
+	left: 12px;
+	transform: translateY(-50%);
+}
+
+.surveys .answer .percentage {
+	left: unset;
+	right: 12px;
+}
+
+.surveys .box .input-parent {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 24px 0 0px
+}
+
+input {
+	display: none
+}
+
+label {
+	position: relative;
+	cursor: pointer;
+	font: 400 calc(14rem / 16)/calc(20rem / 16) 'Roboto', sans-serif;
+	color: #434343;
+}
+
+label:before {
+	content: '';
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 2px solid #FFC409;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	padding: 8px;
+	margin-right: 24px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer
+}
+
+input:checked + label:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 7px;
+	border: solid #FFC409;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 6px;
+	height: 12px
+}
+
+.surveys .box button {
+	margin: 24px 0 0
+}

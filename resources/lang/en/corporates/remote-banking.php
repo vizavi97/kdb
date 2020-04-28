@@ -1,0 +1,42 @@
+<?php
+
+return [ 
+
+    '1'    => 'Digital Banking',
+    '2'    => 'Digital Banking',
+    '3'    => 'KDB | Digital Banking',
+    '4'    => 'Remote Banking',
+    '5'    => 'Nowadays, use of remote banking services is a daily need, and KDB Bank Uzbekistan offers to you the possibility to choose the most suitable type of remote administration of your financial resources and transactions no matter where you are or what time of day it actually is.',
+    '6'    => 'Office.Net',
+    '7'    => 'KDB Bank Uzbekistan offers Office.Net Uzbekistan – e-banking platform for national and international corporate customer segments.',
+    '8'    => 'read more',
+    '9'    => 'Office.Net Uzbekistan allows',
+    '10'   => 'Security standards for client-bank remote communication provided by One Time Password generating device',
+    '11'   => 'Online connection to track account movements, view account balance and statements of account',
+    '12'   => 'Initiate (create / authorize / send) payment instructions in national and foreign currencies, view payment status',
+    '13'   => 'Make funds conversion from foreign currency to national currency',
+    '14'   => 'Multi-level authentication system in line with client’s corporate structure',
+    '15'   => 'Alternatively, JSC KDB Bank Uzbekistan offers Internet Banking electronic banking service for transactions in national currency, developed both for corporate and individual clients.',
+    '16'   => 'Internet Banking',
+    '17'   => 'Internet Banking is a convenient way for online banking experience developed for both corporate and individual clients.',
+    '18'   => 'read more',
+    '19'   => 'Internet Banking is a convenient way for online banking experience developed for both corporate and individual clients. Internet Banking allows:',
+    '20'   => 'Highest security standards for client-bank remote communication provided by One Time Password generating device',
+    '21'   => 'Initiate (create / authorize / send) payment instructions in national currency',
+    '22'   => 'View payment status',
+    '23'   => 'Make funds conversion from national currency to foreign currency (individual clients only)',
+    '24'   => 'Real time connection to track account movements, view accounts’ balances and statement of accounts',
+    '25'   => 'Multi-level authentication system in line with client’s corporate structure',
+    '26'   => 'SMS Informing',
+    '27'   => 'Client receives instant notifications on local mobile phone about transactions executed in the account, on account balance upon client’s request and various short information communication messages from the Bank.',
+    '28'   => 'read more',
+    '29'   => 'Client receives instant notifications on local mobile phone about transactions executed in the account, on account balance upon client’s request and various short information communication messages from the Bank.',
+    '30'   => 'Key benefits:',
+    '31'   => 'Real time tracking of account movements straight from mobile phone',
+    '32'   => 'Simple, yet Safe service',
+    '33'   => 'Convenient and Time saving',
+    '34'   => 'Several mobile numbers bound to the same registered account',
+    '35'   => 'If you are a corporate client of JSC KDB Bank Uzbekistan “SMS Informing” service can be activated at your servicing branch of the Bank. The service is paid in accordance with the Tariffs of the Bank.',
+
+];
+

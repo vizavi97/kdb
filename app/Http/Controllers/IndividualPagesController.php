@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\IndividualsAccountFile;
 use Illuminate\Http\Request;
 use App\IndividualsCreditEmail;
 use App\IndividualsTransferEmail;
@@ -12,12 +13,11 @@ use App\TransferCurrency;
 use App\BankTariff;
 use App\Rate;
 
-class IndividualPagesController extends Controller
-{
+class IndividualPagesController extends Controller {
 
     public function accountOpening() {
-
-        return view('individuals.account-opening');
+        $files = IndividualsAccountFile::withTranslation()->get();
+        return view('individuals.account-opening', compact('files'));
     }
 
 	public function paymentsAndTransfers() {

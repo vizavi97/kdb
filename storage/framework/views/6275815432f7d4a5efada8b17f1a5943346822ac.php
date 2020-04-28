@@ -1,0 +1,61 @@
+
+
+<?php $__env->startSection('page-title'); ?>
+    <?php echo app('translator')->get('about-us/banks-charter.bank-charter'); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('breadcrumb'); ?>
+    <span class="small-paragraph"><?php echo app('translator')->get('about-us/banks-charter.bank-charter-2'); ?></span>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('meta'); ?>
+
+    <title><?php echo app('translator')->get('about-us/banks-charter.kdb-bank'); ?></title>
+
+    
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/about-us/business-plan.css')); ?>">
+
+    
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/about-us/banks-charter.css')); ?>">
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+
+    <?php echo $__env->make('layouts.breadcrumb', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+    
+    <section class="desctop container business-plan">
+        <div class="row">
+            
+            <main class="col-xl-9 main-hero mb-5">
+                <div class="row">
+                    <?php $__currentLoopData = $tariffs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tariff): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <?php if(json_decode($tariff['file_' . app()->getLocale()])): ?>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="business-plan-box">
+                                    <div class="bg position-relative">
+                                        <img class="img-cover" src="<?php echo e(Voyager::image( $tariff->image )); ?>" alt="KDB banks charter">
+                                    </div>
+                                    <div class="p-4">
+                                        <h2 class="heading-3 mb-3"><?php echo e($tariff->getTranslatedAttribute('title', app()->getLocale(), 'fallbackLocale')); ?></h2>                                   
+                                        <a href="<?php echo e(Voyager::image( (json_decode($tariff['file_' . app()->getLocale()]))[0]->download_link )); ?>" class="flex-justify-center" download>
+                                            <i class="fas fa-download"></i>
+                                            <span class="small-paragraph"><?php echo app('translator')->get('about-us/banks-charter.download'); ?></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+               </div>
+           </main>
+
+            <?php echo $__env->make('layouts.sidebars.about-us-sidebar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+        </div>
+    </section>
+    
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /usr/local/www/apache24/data/resources/views/about-us/banks-charter.blade.php ENDPATH**/ ?>

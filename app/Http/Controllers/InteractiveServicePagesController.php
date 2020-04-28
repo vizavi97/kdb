@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\InteractiveServicesAccountOpening;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ApplicationRecevied;
@@ -19,7 +20,11 @@ use Storage;
 
 class InteractiveServicePagesController extends Controller
 {
+    public function accountOpening() {
 
+        $files = InteractiveServicesAccountOpening::withTranslation()->get();
+        return view('interactive-services.account-opening', compact('files'));
+    }
     public function checkAppStatus($locale, Request $request) {
 
         $id = (string) ((int) $request->application_number - 1000);
@@ -97,7 +102,7 @@ class InteractiveServicePagesController extends Controller
 
         foreach ($rates as $rate) {
             $ratesArr[$rate->ccy . 'UZS'] = (float) $rate->buy;
-            $ratesArr['UZS' . $rate->ccy] = 1/ (float) $rate->buy;
+            $ratesArr['UZS' . $rate->ccy] = 1 / (float) $rate->sell;
         }
 
         $ratesArr = json_encode($ratesArr, JSON_HEX_QUOT);

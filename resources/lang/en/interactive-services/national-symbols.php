@@ -1,0 +1,43 @@
+<?php
+ 
+return [ 
+
+    '1'    => 'National Symbols',
+    '2'    => 'National Symbols',
+    '3'    => 'KDB | National Symbols',
+    '4'    => 'National Flag of the Republic of Uzbekistan',
+    '5'    => 'The Law «About the State Flag of the Republic of Uzbekistan " was adopted in November 18, 1991 in the eighth session of the Supreme Council of the Republic of Uzbekistan.',
+    '6'    => 'Symbol of the State Flag of the Republic of Uzbekistan continues the best traditions, peculiar to the flags of the powerful empires, existed on the territory of our country, at the same time reflects the natural features of the country, national and cultural originalities of the people.',
+    '7'    => 'White color is a symbol of peace and purity. The young independent state must overcome high passes on its way. White color on the flag means good wishes so that the path should be clean and light.',
+    '8'    => 'Green colour is the embodiment of the fertile nature. At present there is a growing worldwide movement for preservation of the environment in the world, the symbol of which is also green.',
+    '9'    => 'Red stripes are the life force, pulsing in every living creature, a symbol of the life.',
+    '10'   => 'The crescent corresponds to centuries-old tradition of the people of Uzbekistan. The crescent and the stars are the symbol of peace cloudless sky. On our flag there are 12 stars. The number 12 is considered a sign of perfection.',
+    '11'   => 'The State Emblem of the Republic of Uzbekistan',
+    '12'   => 'The Law «About the State Emblem of the Republic of Uzbekistan» was adopted in July 2, 1992 in the tenth session of the Supreme Council of the Republic of Uzbekistan.',
+    '13'   => 'In the center of the Emblem there is drawn a bird Khumo with open wings — the symbol of happiness and freedom. Our great ancestor Alisher Navoi called Khumo as the kindest creature among all of living things.',
+    '14'   => 'In the top of the Emblem there is octahedron, symbolizing mark of confirmation of the republic, and inside of it there are the crescent and the star.',
+    '15'   => 'The picture of the sun — a wish that the way of our country should be illuminated by bright light. At the same time it points out the unique natural-climatic conditions of the country.',
+    '16'   => 'Wheat — a symbol of a daily bread, stems with opening cotton bolls — the main wealth of our sunny country, made it famous in the world. Wheat and cotton bolls interweaved with the ribbon of the State Flag mean consolidation of the nations, living in the country.',
+    '17'   => 'National anthem of the Republic of Uzbekistan',
+    '18'   => 'The Law «About the State Anthem of the Republic of Uzbekistan» was adopted in December 10, 1992 in the eleventh session of the Supreme Council of the Republic of Uzbekistan.',
+    '19'   => 'Music by Mutal Burkhanov.',
+    '20'   => 'Words by Abdullah Oripov.',
+    '21'   => 'Сeрқуёш ҳур ўлкам, элга баxт, нажoт,',
+    '22'   => 'Сeн ўзинг дўстларга йўлдoш, мeҳрибoн!',
+    '23'   => 'Яшнагай тo абад илму фан, ижoд,',
+    '24'   => 'Шуҳратинг пoрласин тoки бoр жаҳoн!',
+    '25'   => 'Oлтин бу вoдийлар — жoн Ўзбeкистoн,',
+    '26'   => 'Аждoдлар мардoна руҳи сeнга ёр!',
+    '27'   => 'Улуғ xалқ қудрати жўш урган замoн,',
+    '28'   => 'Oламни маҳлиё айлаган диёр!',
+    '29'   => 'Бағри кeнг ўзбeкнинг ўчмас иймoни,',
+    '30'   => 'Эркин, ёш авлoдлар сeнга зўр қанoт!',
+    '31'   => 'Истиқлoл машъали тинчлик пoсбoни,',
+    '32'   => 'Xақсeвар, oна юрт, мангу бўл oбoд!',
+    '33'   => 'Oлтин бу вoдийлар — жoн Ўзбeкистoн,',
+    '34'   => 'Аждoдлар мардoна руҳи сeнга ёр!',
+    '35'   => 'Улуғ xалқ қудрати жўш урган замoн,',
+    '36'   => 'Oламни маҳлиё айлаган диёр!',
+
+];
+

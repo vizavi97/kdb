@@ -1,0 +1,88 @@
+<?php $__env->startSection('page-title', 'Treasury'); ?>
+
+<?php $__env->startSection('breadcrumb'); ?>
+
+    <span class="small-paragraph">Treasury</span>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('meta'); ?>
+
+    <title>KDB | Treasury</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/corporates/treasury.css')); ?>">
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+
+    <?php echo $__env->make('layouts.breadcrumb', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+    
+    <section class="desctop container treasury">
+        <div class="row">
+        
+            <main class="col-xl-9 main-hero mb-5">
+                <div class="first-parent">
+                    <h2 class="heading-2">
+                        Treasury Services
+                    </h2>
+                    <p class="parahraph">
+                        As a major foreign bank in Uzbekistan ‘’KDB Bank Uzbekistan’’ provides a wide range of treasury operations based on international financial standards:
+                    </p>
+                </div>
+                <div class="second-parent">
+                    <div class="row box">
+                        <div class="col-lg-1 col-md-3 col-12 text-md-center text-left mb-md-0 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39.999" height="40" viewBox="0 0 39.999 40"><path d="M9068.732,4693.069a1.661,1.661,0,0,1-1.663-1.667v-18.662a1.661,1.661,0,0,1,1.663-1.664h36.67a1.661,1.661,0,0,1,1.666,1.664V4691.4a1.662,1.662,0,0,1-1.666,1.667Zm14.075-8.669a4.359,4.359,0,0,0,1.2,2.562,4.048,4.048,0,0,0,2.44,1.086v1.527h1.264v-1.568a4.231,4.231,0,0,0,2.654-1.273,3.691,3.691,0,0,0,.962-2.587,3.256,3.256,0,0,0-.759-2.229,5.7,5.7,0,0,0-2.848-1.413v-3.282a1.723,1.723,0,0,1,1.044,1.346l2.206-.276a3.491,3.491,0,0,0-1.047-2.009,3.8,3.8,0,0,0-2.2-.914v-.832h-1.273v.832a3.64,3.64,0,0,0-2.4,1.079,3.231,3.231,0,0,0-.9,2.318,3.491,3.491,0,0,0,.8,2.317,4.835,4.835,0,0,0,2.5,1.422v3.518a2.253,2.253,0,0,1-.851-.7,2.761,2.761,0,0,1-.521-1.159Zm4.914-1.52a2.291,2.291,0,0,1,1.127.62,1.46,1.46,0,0,1,.343.974,1.629,1.629,0,0,1-.407,1.092,1.778,1.778,0,0,1-1.062.587Zm-2.107-3.371a1.357,1.357,0,0,1-.276-.825,1.411,1.411,0,0,1,.3-.889,1.632,1.632,0,0,1,.815-.571v2.907A2.026,2.026,0,0,1,9085.614,4679.508Zm-12.5-11.028a1.665,1.665,0,1,1,0-3.33h27.919a1.665,1.665,0,0,1,0,3.33Zm5-6.041a1.666,1.666,0,0,1,0-3.332h17.919a1.666,1.666,0,0,1,0,3.332Zm5.977-6.041a1.665,1.665,0,1,1,0-3.33h5.965a1.665,1.665,0,1,1,0,3.33Z" transform="translate(-9067.069 -4653.069)" fill="#ffc409"/></svg>
+                        </div>
+                        <div class="col-lg-11 col-md-9 col-12">
+                            <h3 class="heading-3">
+                            Interbank Money Market
+                            </h3>
+                            <p class="paragraph">
+                                KDB Bank Uzbekistan operates in domestic and foreign money markets by placing and attracting interbank deposits in major free convertible currencies and local currency of the Republic of Uzbekistan within specified limits.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-lg-1 col-md-3 col-12 text-md-center text-left mb-md-0 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="37.05" height="41" viewBox="0 0 37.05 41"><path d="M9161.1,4522.987c0-5.53,4.758-10.012,10.629-10.012s10.628,4.482,10.628,10.012S9177.6,4533,9171.731,4533,9161.1,4528.516,9161.1,4522.987Zm4.611,2.481h1.516q1.072,3.634,5.927,3.634.365,0,.759-.027c.264-.019.519-.046.771-.083s.49-.082.724-.139a4.836,4.836,0,0,0,.6-.183h0v-2.217a5.856,5.856,0,0,1-.588.166c-.22.053-.447.1-.681.133s-.469.067-.7.089-.444.033-.642.033a5.348,5.348,0,0,1-2.046-.327,2.272,2.272,0,0,1-1.166-1.08h3.119v-1.783h-3.53c-.007-.075-.015-.174-.023-.3s-.012-.248-.012-.365a5.4,5.4,0,0,1,.035-.632h4.411V4520.6h-3.977a3.167,3.167,0,0,1,3.143-1.639,7.433,7.433,0,0,1,1.328.122,9.209,9.209,0,0,1,1.21.3v-2.216a4.047,4.047,0,0,0-.529-.171,6.659,6.659,0,0,0-.681-.139q-.365-.056-.759-.088c-.264-.022-.512-.033-.748-.033a6.747,6.747,0,0,0-3.833,1,5.208,5.208,0,0,0-2.081,2.864h-1.552v1.784h1.233a6.261,6.261,0,0,0-.036.687c0,.1,0,.205.008.3s.009.2.017.306h-1.222Zm-17.652.141,2.613-2.459-1.314-1.237a7.089,7.089,0,0,1-1.255-10.159l.586-.926a7.76,7.76,0,0,0,2.211,5.158l3.688,3.475,2.586-2.435.338,8.9Zm31.1-16.461-3.688-3.476-2.586,2.436-.338-8.9,9.451.318-2.611,2.46,1.313,1.236a7.09,7.09,0,0,1,1.256,10.16l-.588.926A7.762,7.762,0,0,0,9179.165,4509.147Zm-20.624,2.877c-5.869,0-10.628-4.482-10.628-10.013s4.759-10.012,10.628-10.012,10.63,4.483,10.63,10.012-4.759,10.013-10.629,10.013Zm-4.768-5.1a7.17,7.17,0,0,0,1.688.45,17.313,17.313,0,0,0,2.17.193v1.085h1.87v-1.142a5.839,5.839,0,0,0,2.992-1.008,2.96,2.96,0,0,0,.692-3.677,2.825,2.825,0,0,0-.929-.914,4.617,4.617,0,0,0-1.293-.533c-.482-.122-.971-.219-1.463-.293v-2.459a13.576,13.576,0,0,1,3.374.621v-2.193a10.308,10.308,0,0,0-1.629-.383,17.311,17.311,0,0,0-1.745-.184v-1.107h-1.87v1.143a7.965,7.965,0,0,0-1.711.354,4.26,4.26,0,0,0-1.289.67,2.845,2.845,0,0,0-.811.986,2.882,2.882,0,0,0-.284,1.3,2.65,2.65,0,0,0,.365,1.461,2.831,2.831,0,0,0,.947.909,4.626,4.626,0,0,0,1.312.515q.729.172,1.471.272v2.426c-.4-.007-.77-.028-1.107-.061s-.658-.078-.964-.132-.6-.123-.893-.2-.59-.168-.894-.272Zm5.728-3.667a2.9,2.9,0,0,1,1.1.36.789.789,0,0,1,.357.7q0,.842-1.457,1.019Zm-3.012-2.825a.791.791,0,0,1-.376-.709.849.849,0,0,1,.328-.681,2.313,2.313,0,0,1,1.189-.36v2.127A3.162,3.162,0,0,1,9156.489,4500.427Z" transform="translate(-9146.509 -4491.999)" fill="#ffc409"/></svg>
+                        </div>
+                        <div class="col-lg-11 col-md-9 col-12">
+                            <h3 class="heading-3">
+                            Forex
+                            </h3>
+                            <p class="paragraph mb-4">
+                                KDB Bank Uzbekistan offers FX operations services via the interbank foreign exchange market. These services are offered to both  banks and corporate clients. Modern technologies enable clients rapid execution of foreign exchange operations in major hard currencies (USD, EUR), as well as in the British pound, Japanese yen and Russian rubles. In addition, there is possibility of conversion into other exotic currencies.
+                            </p>
+                            <p class="paragraph">
+                                *Foreign exchange operations are carried out under conditions TOD, TOM, SPOT based on the needs of the client and the transaction amount. As an additional service, the Bank may  provide  information on the current tendency and conjecture of the market,  foreign exchange cross rates along with movement analysis in a real time basis to clients upon request.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-lg-1 col-md-3 col-12 text-md-center text-left mb-md-0 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39.898" height="40" viewBox="0 0 39.898 40"><path d="M9172.035,4529.82l-11.883-11.883a1.268,1.268,0,0,1,0-1.794l.774-.774-12.881-12.881-.6.6a1.269,1.269,0,0,1-1.919-.145l-3.87-5.255a1.27,1.27,0,0,1,.125-1.65l2.231-2.231a1.269,1.269,0,0,1,1.649-.125l5.255,3.871a1.269,1.269,0,0,1,.145,1.918l-.6.6,12.881,12.881.723-.723a1.268,1.268,0,0,1,1.795,0l11.882,11.882a4.033,4.033,0,1,1-5.7,5.7Zm-29.482,0a4.034,4.034,0,0,1,0-5.7L9154.666,4512l3.464,3.464a3.322,3.322,0,0,0,.569,3.911l-10.442,10.442a4.034,4.034,0,0,1-5.7,0Zm22.406-20a3.3,3.3,0,0,0-1.507.36l-3.479-3.479,2.92-2.921a9.484,9.484,0,0,1,10.421-12.652.864.864,0,0,1,.473,1.464l-2,2a4.17,4.17,0,0,0,5.9,5.9l2-2a.864.864,0,0,1,1.464.473,9.485,9.485,0,0,1-12.5,10.476l-1.347,1.346A3.294,3.294,0,0,0,9164.959,4509.815Z" transform="translate(-9141.372 -4491.001)" fill="#ffc409"/></svg>
+                        </div>
+                        <div class="col-lg-11 col-md-9 col-12">
+                            <h3 class="heading-3">
+                            Derivative Instruments
+                            </h3>
+                            <p class="paragraph">
+                                KDB Bank Uzbekistan also offers services with derivatives instruments such as foreign exchange swaps – foreign exchange operations with the obligatory reverse transaction with the value date forward. Swap transactions are conducted in major foreign currency pairs USD/UZS and EUR/UZS. If necessary, the experts of the Treasury Department of the Bank may offer advice on such operations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <?php echo $__env->make('layouts.sidebars.corporates-sidebar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+        </div>
+    </section>
+    
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\User 5\Desktop\KDB Last\resources\views/corporates/treasury.blade.php ENDPATH**/ ?>

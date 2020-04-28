@@ -1,6 +1,5 @@
 <?php
 
-
 Route::get('/clear-cache', function() {
    $exitCode = Artisan::call('cache:clear');
     return  "cleaned";
@@ -114,7 +113,7 @@ Route::group(['prefix' => '{locale}', 'middleware' => 'pagespeed'], function () 
 
     Route::get('individuals/payments-and-transfers', 'IndividualPagesController@paymentsAndTransfers')->name('individuals.payments-and-transfers');
 
-    //////////  Individuals Remote Banking  ////////////////////// 
+    //////////  Individuals Remote Banking  //////////////////////
 
     Route::get('individuals/remote-banking/internet-banking', 'IndividualPagesController@internetBanking')->name('individuals.remote-banking.internet-banking');
 
@@ -177,6 +176,9 @@ Route::group(['prefix' => '{locale}', 'middleware' => 'pagespeed'], function () 
     ///////////  Interactive Services
     /////////////////////////////////////////////////////////////
 
+
+    Route::get('interactive-services/account-opening', "InteractiveServicePagesController@accountOpening")->name('interactive-services.account-opening');
+
     Route::get('interactive-services/virtual-reception', function () {
         return view('interactive-services.virtual-reception');
     })->name('interactive-services.virtual-reception');
@@ -215,7 +217,7 @@ Route::group(['prefix' => '{locale}', 'middleware' => 'pagespeed'], function () 
     /////////////////////////////////////////////////////////////
 
 
-    Route::get('interactive-services/search', 'SearchController@index')->name('search'); 
+    Route::get('interactive-services/search', 'SearchController@index')->name('search');
 
 
 
@@ -231,7 +233,7 @@ Route::group(['prefix' => '{locale}', 'middleware' => 'pagespeed'], function () 
 
     Route::get('press-center/procurement', 'PressCenterController@procurement')->name('press-center.procurement');
 
-    Route::get('press-center/youth-union', function () { 
+    Route::get('press-center/youth-union', function () {
         return view('press-center.youth-union');
     })->name('press-center.youth-union');
 
