@@ -29,43 +29,29 @@
             <main class="col-xl-9 main-hero mb-5">
                 <div class="first-stuff">
                     <h2 class="heading-2">
-                        @lang('individuals/account-opening.4')
+                        @lang('interactive-services/account-opening.4')
                     </h2>
                     <p class="paragraph paragraph-bold">
-                        @lang('individuals/account-opening.5')
+                        @lang('interactive-services/account-opening.5')
                     </p>
                     <p class="paragraph paragraph-bold">
-                        @lang('individuals/account-opening.6')
+                        @lang('interactive-services/account-opening.6')
                     </p>
                     <ul class="right-icon my-4">
                         <li>
-                            <p>@lang('individuals/account-opening.7')</p>
+                            <p>@lang('interactive-services/account-opening.7')</p>
                         </li>
                         <li>
-                            <p>@lang('individuals/account-opening.8')</p>
+                            <p>@lang('interactive-services/account-opening.8')</p>
                         </li>
                     </ul>
                     <p class="small-paragraph mb-4">
-                        @lang('individuals/account-opening.9')
+                        @lang('interactive-services/account-opening.9')
                     </p>
                     <p class="small-paragraph">
-                        @lang('individuals/account-opening.10')
+                        @lang('interactive-services/account-opening.10')
                     </p>
-                    <h3 class="heading-3 mt-4">@lang('individuals/account-opening.11')</h3>
-                    <ul class="right-icon mt-4">
-                        <li>
-                            <p>@lang('individuals/account-opening.12')</p>
-                        </li>
-                        <li>
-                            <p>@lang('individuals/account-opening.13')</p>
-                        </li>
-                        <li>
-                            <p>@lang('individuals/account-opening.14')</p>
-                        </li>
-                        <li>
-                            <p>@lang('individuals/account-opening.15')</p>
-                        </li>
-                    </ul>
+                    <p class="small-paragraph mt-4">@lang('interactive-services/account-opening.11')</p>
                 </div>
                 @if(isset($files))
                     @foreach($files as $file)

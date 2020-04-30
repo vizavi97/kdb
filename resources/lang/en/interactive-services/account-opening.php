@@ -1,22 +1,24 @@
 <?php
 
-return [ 
-
+return [
     '1'    => 'Account Opening',
     '2'    => 'Account Opening',
     '3'    => 'KDB | Account Opening',
     '4'    => 'Account Opening Process',
-    '5'    => 'Bank opens and service bank accounts of residents of the Republic of Uzbekistan and non-residents in national and foreign currencies.',
-    '6'    => 'To open a bank account, the Client must:',
-    '7'    => 'Present an identity document',
-    '8'    => 'Conclude a bank account agreement with the Bank.',
-    '9'    => 'The client is given the opportunity to receive information about the availability of funds in the account and their movement. In addition, the Client may provide the Bank with a standing order to transfer funds from his account to the extent of the balance of funds in the account.',
-    '10'   => 'The Client can manage a bank account both personally and through his/her representative when providing him with a power of attorney drawn up in accordance with the current legislation of the Republic of Uzbekistan.<br/> For operations conducted from a bank account, a commission is charged in accordance with the Bank\'s tariffs.',
-    '11'   => 'Cash operations',
-    '12'   => 'Cash withdrawal from the current account when crediting to the account by bank transfer;',
-    '13'   => 'Acceptance for collection of non-payment banknotes of foreign states;',
-    '14'   => 'Exchange and acceptance of non-payment banknotes of foreign states on a commission;',
-    '15'   => 'Acceptance for the examination of banknotes that cast doubt on their authenticity.',
-
+    '5'    => 'Consumer protection, in the broader sense,
+    refers to the laws and regulations that ensure fair interaction between service providers and consumers.',
+    '6'    => 'Government intervention and regulation in the area of consumer protection are justified on the basis of inherent information asymmetries and power imbalances in markets, with producers or service providers
+     having more information about the product or service than the consumers.',
+    '7'    => '',
+    '8'    => '',
+    '9'    => ' A consumer protection framework generally includes the introduction of greater transparency and awareness about the goods and services, promotion of competition in the marketplace
+    , prevention of fraud, education of customers,
+     and elimination of unfair practices.',
+    '10'   => 'What should a consumer do if their rights are violated?
+    First of all, in case of violation of rights, it is necessary to
+     immediately contact the management of the bank orally or in writing.',
+    '11'   => '
+If the consumer’s rights are not restored, one has the right to apply to the competent state bodies, local authorities, or directly to the court, which exercises state control over compliance with the legislation on the protection of consumer rights.
+ In addition, a consumer may apply to the Central Bank\'s appeals department of individuals and legal entities with a request to restore their rights.',
 ];
 
